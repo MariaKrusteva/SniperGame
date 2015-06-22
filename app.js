@@ -15,6 +15,10 @@ $(document).ready(function() {
 
 
   var startP = new Point(200, 200);
-  var sniper = new Sniper(startP, 'img/sniper.png', context)
+  var endP = new Point(400, 400);
+  var sniper = new Sniper(startP, 52, 63,'img/sniper.png', context)
   sniper.draw();
+  //sniper.setPossition(endP);
+  //sniper.draw();
+  sniper.moveTo(endP);
 })
