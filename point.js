@@ -9,11 +9,3 @@ function Point(x, y){
   }
 
 }
-
-// Point.prototype.draw = function(size, ctx) {
-//   ctx.fillRect(this.getX() * size, this.getY() * size, size, size);
-// }
-
-// Point.prototype.equivalent = function(point) {
-//   return this.getX() === point.getX() && this.getY() === point.getY();
-// }
