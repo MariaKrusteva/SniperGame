@@ -114,7 +114,7 @@ define(
           }
           that.draw();
           loop();
-        }, 1000/60); //
+        }, 1000/60);
 
 
         if(nearValues(x1, x2) && nearValues(y1, y2)) {
